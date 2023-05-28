@@ -59,8 +59,6 @@ CREATE TABLE lojas.produtos (
                 CONSTRAINT produto_id PRIMARY KEY (produto_id)
 );
 
-ALTER TABLE lojas.produtos OWNER TO cleiton;
-
 COMMENT ON COLUMN lojas.produtos.produto_id IS 'Primary Key Produtos';
 COMMENT ON COLUMN lojas.produtos.nome IS 'Nome do produto';
 COMMENT ON COLUMN lojas.produtos.preco_unitario IS 'Preco unitario do produto';
@@ -85,7 +83,6 @@ CREATE TABLE lojas.lojas (
                 logo_ultima_atualizacao DATE,
                 CONSTRAINT loja_id PRIMARY KEY (loja_id)
 );
-ALTER TABLE lojas.lojas OWNER TO cleiton;
 
 COMMENT ON COLUMN lojas.lojas.loja_id IS 'Primary Key de Lojas';
 COMMENT ON COLUMN lojas.lojas.nome IS 'Nome da Loja';
@@ -107,7 +104,6 @@ CREATE TABLE lojas.estoques (
                 quantidade NUMERIC(38) NOT NULL,
                 CONSTRAINT estoque_id PRIMARY KEY (estoque_id)
 );
-ALTER TABLE lojas.estoques OWNER TO cleiton;
 
 COMMENT ON COLUMN lojas.estoques.estoque_id IS 'Primary Key estoques';
 COMMENT ON COLUMN lojas.estoques.loja_id IS 'Foreign Key Lojas';
@@ -127,7 +123,6 @@ CREATE TABLE lojas.clientes (
                 telefone3 VARCHAR(20),
                 CONSTRAINT cliente_id PRIMARY KEY (cliente_id)
 );
-ALTER TABLE lojas.clientes OWNER TO cleiton;
 
 COMMENT ON COLUMN lojas.clientes.cliente_id IS 'Primary Key de CLIENTES';
 COMMENT ON COLUMN lojas.clientes.email IS 'Email Cliente';
@@ -147,7 +142,6 @@ CREATE TABLE lojas.pedidos (
                 loja_id NUMERIC(38) NOT NULL,
                 CONSTRAINT pedidos_id PRIMARY KEY (pedido_id)
 );
-ALTER TABLE lojas.pedidos OWNER TO cleiton;
 
 COMMENT ON COLUMN lojas.pedidos.pedido_id IS 'Primary Key Pedidos';
 COMMENT ON COLUMN lojas.pedidos.data_hora IS 'Data e Hora do Pedido';
@@ -166,7 +160,6 @@ CREATE TABLE lojas.envios (
                 status VARCHAR(15) NOT NULL,
                 CONSTRAINT envio_id PRIMARY KEY (envio_id)
 );
-ALTER TABLE lojas.envios OWNER TO cleiton;
 
 COMMENT ON COLUMN lojas.envios.envio_id IS 'Primary Key envios';
 COMMENT ON COLUMN lojas.envios.loja_id IS 'Foreign Key Lojas';
@@ -186,7 +179,6 @@ CREATE TABLE lojas.pedidos_itens (
                 envio_id NUMERIC(38),
                 CONSTRAINT pedido_id PRIMARY KEY (produto_id, pedido_id)
 );
-ALTER TABLE lojas.pedidos_itens OWNER TO cleiton;
 
 COMMENT ON COLUMN lojas.pedidos_itens.produto_id IS 'Primary Foreign Key de pedidos_itens';
 COMMENT ON COLUMN lojas.pedidos_itens.pedido_id IS 'Primary Foreign Key de pedidos_itens';
