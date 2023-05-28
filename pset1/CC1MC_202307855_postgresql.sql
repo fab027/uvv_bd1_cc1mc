@@ -1,3 +1,12 @@
+/* 
+Fabricio Nascimento Perusse Júnior | Matricula: 202307855
+Banco de Dados I
+CC1MC
+*/ 
+
+
+
+
 DROP DATABASE IF EXISTS uvv;
 
 REASSIGN OWNED BY cleiton TO postgres;  
