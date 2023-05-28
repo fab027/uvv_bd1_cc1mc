@@ -5,7 +5,7 @@ Este projeto, intitulado **pset1 (Lojas UVV)**, consiste na implementação de u
 ## Equipe
 - Nome do Projeto: **pset1 (Lojas UVV)**
 - Professor: **Abrantes Araujo**
-- Monitora: 
+- Monitora: **Suellen Miranda Amorim**
 
 ## Arquivos
 **CC1MC_202307855_postgresql.architect**: Arquivo architect feito no SQL Power Architect do banco de dados das lojas UVV.
