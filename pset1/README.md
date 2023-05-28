@@ -3,7 +3,7 @@
 Este projeto, intitulado **pset1 (Lojas UVV)**, consiste na implementação de um conjunto de problemas de SQL como parte de um curso ou programa de estudos relacionados a implementação de um banco de dados com nome "lojas uvv". O objetivo é resolver uma série de exercícios para praticar e aprimorar habilidades de **Banco de Dados**, com base em resoluções até conseguir propor um script SQL funcional no **PostgreSQL**.
 
 ## Equipe
-- Nome do Projeto: **PSet1 (Lojas UVV)**
+- Nome do Projeto: **pset1 (Lojas UVV)**
 - Professor: **Abrantes Araujo**
 - Monitora: 
 
