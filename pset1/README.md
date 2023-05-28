@@ -5,7 +5,7 @@ Este projeto, intitulado PSet1 (Lojas UVV), consiste na implementação de um co
 ## Equipe
 - Nome do Projeto: **PSet1 (Lojas UVV)**
 - Professor: **Abrantes Araujo**
-- Monitora: [Nome da Monitora] (a ser preenchido)
+- Monitora: 
 
 ## Arquivos
 **CC1MC_202307855_postgresql.architect**: Arquivo architect feito no SQL Power Architect do banco de dados das lojas UVV.
