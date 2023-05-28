@@ -8,7 +8,7 @@ Este projeto, intitulado PSet1 (Lojas UVV), consiste na implementação de um co
 - Monitora: [Nome da Monitora] (a ser preenchido)
 
 ## Arquivos
-**CC1MC_202307855_postgresql.architect**: Arquivo Markdown contendo informações sobre a arquitetura do banco de dados das lojas UVV.
+**CC1MC_202307855_postgresql.architect**: Arquivo architect feito no SQL Power Architect do banco de dados das lojas UVV.
 **CC1MC_202307855_postgresql.pdf**: Diagrama em formato PDF representando o banco de dados das lojas UVV.
 **CC1MC_202307855_postgresql.sql**: Arquivo SQL contendo o script de criação e população do banco de dados das lojas UVV.
 
