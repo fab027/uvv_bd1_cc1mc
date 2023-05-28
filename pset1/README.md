@@ -3,8 +3,8 @@
 Este projeto, intitulado PSet1 (Lojas UVV), consiste na implementação de um conjunto de problemas de programação como parte de um curso ou programa de estudos relacionados às lojas da Universidade Vila Velha (UVV). O objetivo é resolver uma série de exercícios para praticar e aprimorar habilidades de programação voltadas para o contexto de lojas.
 
 ## Equipe
-- Nome do Projeto: PSet1 (Lojas UVV)
-- Professor: Abrantes Araujo
+- Nome do Projeto: ****PSet1 (Lojas UVV)
+- Professor: ****Abrantes Araujo
 - Monitora: [Nome da Monitora] (a ser preenchido)
 
 ## Arquivos
