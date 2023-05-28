@@ -29,7 +29,7 @@ CREATE DATABASE uvv
     LC_CTYPE = 'pt_BR.UTF-8'
     ALLOW_CONNECTIONS = true;
 
-COMMENT ON DATABASE uvv IS 'Database sobre as lojas uvv'
+COMMENT ON DATABASE uvv IS 'Database sobre as lojas uvv';
 
 \c 'dbname=uvv user=cleiton password=12344321'
 
