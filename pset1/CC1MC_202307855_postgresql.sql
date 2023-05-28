@@ -9,14 +9,14 @@ CC1MC
 
 DROP DATABASE IF EXISTS uvv;
 
-REASSIGN OWNED BY cleiton TO postgres;  
-DROP OWNED BY cleiton;
-
 DROP USER IF EXISTS cleiton;
 
 CREATE USER cleiton
-WITH CREATEDB
-PASSWORD '12344321';
+WITH 
+CREATEROLE
+CREATEDB
+LOGIN
+ENCRYPTED PASSWORD '12344321';
 
 SET ROLE cleiton;
 
@@ -28,6 +28,8 @@ CREATE DATABASE uvv
     LC_COLLATE = 'pt_BR.UTF-8'
     LC_CTYPE = 'pt_BR.UTF-8'
     ALLOW_CONNECTIONS = true;
+
+COMMENT ON DATABASE uvv IS 'Database sobre as lojas uvv'
 
 \c 'dbname=uvv user=cleiton password=12344321'
 
