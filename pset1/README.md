@@ -1,6 +1,6 @@
 # Projeto PSet1 (Lojas UVV)
 ## Descrição
-Este projeto, intitulado PSet1 (Lojas UVV), consiste na implementação de um conjunto de problemas de programação como parte de um curso ou programa de estudos relacionados às lojas da Universidade Vila Velha (UVV). O objetivo é resolver uma série de exercícios para praticar e aprimorar habilidades de programação voltadas para o contexto de lojas.
+Este projeto, intitulado **pset1 (Lojas UVV)**, consiste na implementação de um conjunto de problemas de SQL como parte de um curso ou programa de estudos relacionados a implementação de um banco de dados com nome "lojas uvv". O objetivo é resolver uma série de exercícios para praticar e aprimorar habilidades de **Banco de Dados**, com base em resoluções até conseguir propor um script SQL funcional no **PostgreSQL**.
 
 ## Equipe
 - Nome do Projeto: **PSet1 (Lojas UVV)**
